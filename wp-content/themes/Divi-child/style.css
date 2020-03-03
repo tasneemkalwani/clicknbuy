@@ -11,8 +11,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Template: Divi
 */
 
+
+  /*** HEADER CSS ***/
 .header-content-container.center {
-    margin-left: 550px;
+    margin-left: 500px;
 }
 
 .header-content h1.et_pb_module_header {
@@ -29,15 +31,14 @@ body span.et_overlay::before {
     display: none
 }
 
-
 body span.et_overlay::after {
     width: 150px;
     height: 25px;
     background-color: #9675f7;
     border-radius: 42px;;
     position: absolute;
-    top: 127%;
-    left: 35%;
+    top: 80%;
+    left: 20%;
     font-size: 20px;
     content: "Add to Cart";
     color: black;
@@ -46,15 +47,6 @@ body span.et_overlay::after {
     transition: all .4s;
     padding: 15px 0px;
 }
-
-
-/* .my-logo img.header-logo {
-    width: 14%;
-    position: absolute;
-    top: 20px;
-    left: -50px;
-}
-*/
 
 body .et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content {
     width: 40%;
@@ -82,14 +74,9 @@ a.et_pb_button.et_pb_custom_button_icon.et_pb_more_button.et_pb_button_one {
 
 
 
-/********************************/
-    /*** WOO commerce ***/
-/********************************/
-
-/* .fixed-header-box .cart-dropdown { 
-    display: none;
- } */
-
+                                                        /********************************/
+                                                            /*** WOO commerce ***/
+                                                        /********************************/
 a.et-cart-info {
     display: none;
 }
@@ -109,12 +96,6 @@ nav#top-menu-nav {
 nav#top-menu-nav ul#top-menu {
         margin-bottom: -43px;
 }
-/* body li#menu-item-339 {
-    position: relative;
-    padding: 0px;
-    padding-right: -43px;
-    margin-right: 20px;
-} */
 
 div#et_top_search {
     display: flex;
@@ -131,7 +112,6 @@ div#et_top_search {
     border-radius:  25px 0px 0px 25px;
     padding: 3px 40px;
     margin-top: 20px;
-    
 }
 
 span#et_search_icon::before {
@@ -146,8 +126,6 @@ span#et_search_icon::before {
      height: 300px;
 }
 
-
-
 /*** BREADCRUMBS ***/
 .woocommerce .woocommerce-breadcrumb {
 	font-size: 16px;
@@ -158,12 +136,12 @@ span#et_search_icon::before {
 .woocommerce .woocommerce-breadcrumb a {
 	color: #9675f7;
 }
-/*** CHANGE COLORS ON THE FILTER DROPDOWN ***/
+
 select.orderby { 
 display: none;
 }
 
-/*** SINGLE GRID ITEM STYLING ***/
+
 .woocommerce ul.products li.product {
 	text-align: center; /* centers titles and prices */
 	background: #f5f5f5; /* changes background color */
@@ -174,16 +152,17 @@ display: none;
 }
 .woocommerce ul.products li.product:hover {
 	background: #fff; /* changes background color on hover */
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1); /* adds shadow on hover */
-	-webkit-box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1); 
-	-moz-box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3); /* adds shadow on hover */
+	-webkit-box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3); 
+	-moz-box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
 }
-/*** CHANGE COLOR ON SINGLE GRID AND RELATED PRODUCTS (THIS IS WHERE YOU CAN CHANGE THE FONT SIZE TOO IF YOU WANT) ***/
+
 h2.woocommerce-loop-product__title,
 .product .related h2 {
 	color: #000; /* change color of product titles */
 }
 /*** ADD TO CART BUTTON ***/
+
 .woocommerce ul.products li.product .button {
 	display: inline-block;
 	box-shadow: none;
@@ -194,9 +173,10 @@ h2.woocommerce-loop-product__title,
 	margin-bottom: 0.5em;
 	border-radius: 4px; /* makes rounded edges */
 }
+
 /*** CENTER STAR RATING AND MAKE STARS BIGGER ***/
 .woocommerce ul.products li.product .star-rating {
-	font-size: 18px;
+	font-size: 20px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -220,7 +200,7 @@ body .entry-content #et-boc .woocommerce span.onsale, body .entry-content #et-bo
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 }
-/*** GET RID OF BLACK LINE UNDER IMAGE ***/
+
 .woocommerce ul.products li.product img {
 	border: 3px solid #fff; /* adds border around image and is optional */
 	box-shadow:  0 10px 35px -15px rgba(0,0,0,0.3);
@@ -249,7 +229,7 @@ a.woocommerce-LoopProduct-link:focus, a.woocommerce-loop-product__link:focus {
 h3#order_review_heading,
 form.woocommerce-EditAccountForm.edit-account {
 	border: 0 !important; /* you can add a border if you prefer */
-	background: #f5f5f5; /* this is the main background color for all forms */
+	background: rgba(0,0,0,0.1); /* this is the main background color for all forms */
 }
 /*** FORM AND OTHER PADDING ***/
 #customer_details,
@@ -266,7 +246,7 @@ h3#order_review_heading {
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 }
-/*** THIS COMPENSATES FOR FIELDS NOT ALIGNING ***/
+
 h3#ship-to-different-address {
 	margin-top: -3px; 
 }
@@ -293,16 +273,16 @@ h3#ship-to-different-address {
 	color: #fff !important;
 }
 /*** PAYMENT BOX ON CHECKOUT ***/
-#add_payment_method #payment div.payment_box, 
+body #add_payment_method #payment div.payment_box, 
 .woocommerce-cart #payment div.payment_box, 
 .woocommerce-checkout #payment div.payment_box {
-	background-color: #15bf86;
+	background-color: #b33f62;
 	color: #fff;
 }
-#add_payment_method #payment div.payment_box::before, 
+body #add_payment_method #payment div.payment_box::before, 
 .woocommerce-cart #payment div.payment_box::before, 
 .woocommerce-checkout #payment div.payment_box::before {
-	border-bottom-color: #15bf86;
+	border-bottom-color: #b33f62;
 }
 #add_payment_method #payment ul.payment_methods, 
 .woocommerce-cart #payment ul.payment_methods, 
@@ -339,7 +319,7 @@ h3#ship-to-different-address {
 .woocommerce form .form-row textarea {
 	font-size: 18px;
 }
-/*** COUPON / EXISTING ACCOUNT / ERROR BOXES BACKGROUND COLOR ***/
+
 .woocommerce-message, 
 .woocommerce-error, 
 .woocommerce-info {
@@ -398,14 +378,13 @@ form.tnp-form {
 
 }
 
-
 body .tnp-subscription input[type=text], .tnp-subscription input[type=email], .tnp-subscription input[type=submit], .tnp-subscription select {    width: 200%;
     height: 50px;
     padding: 10px;
     display: block;
     border: 1px;
     border-color: #ddd;
-      background-image: none;
+    background-image: none;
     text-shadow: none;
     line-height: 20px;
     margin: 0;
@@ -432,7 +411,6 @@ body .tnp-field.tnp-field-button {
     position: relative;
     top: -54px;
     left: 423px;
-    /* margin: 0px 82px; */
 }
 
 body .tnp-subscription input.tnp-submit {
@@ -451,11 +429,6 @@ body #newsletterwidgetminimal-2 .tnp-form .tnp-widget-minimal input.tnp-email {
     color: #444;
     font-size: 20px;
 }
-
-
-/* body div.et_pb_section.et_pb_section_5 {
-    z-index: 1!important;
-} */
 
 /* FOOTER CSS */
 #footer-bottom .et-social-icons {
