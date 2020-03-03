@@ -1,0 +1,32 @@
+2020-03-02T10:55:40+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\clicknbuy\wp-admin\includes\media.php on line 16
+
+2020-03-02T10:56:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\clicknbuy\wp-content\themes\Divi\includes\builder\module\TabsItem.php on line 3
+
+2020-03-02T10:56:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\clicknbuy\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version1\class-wc-rest-report-sales-v1-controller.php on line 13
+
+2020-03-02T10:56:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\clicknbuy\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version1\class-wc-rest-report-sales-v1-controller.php on line 13
+
+2020-03-02T10:56:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\clicknbuy\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version1\class-wc-rest-report-sales-v1-controller.php on line 13
+
+2020-03-02T10:56:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\clicknbuy\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version2\class-wc-rest-customers-v2-controller.php on line 19
+
+2020-03-02T10:56:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\clicknbuy\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version3\class-wc-rest-shipping-zone-locations-controller.php on line 19
+
+2020-03-02T10:56:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\clicknbuy\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version3\class-wc-rest-shipping-zone-locations-controller.php on line 19
+
+2020-03-02T10:57:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\clicknbuy\wp-content\themes\Divi\includes\builder\module\helpers\Overflow.php on line 1
+
+2020-03-02T10:57:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\clicknbuy\wp-content\themes\Divi\includes\builder\module\helpers\Overflow.php on line 1
+
+2020-03-02T10:57:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\clicknbuy\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-post-types.php on line 9
+
+2020-03-02T10:57:53+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\clicknbuy\wp-content\plugins\woocommerce-gateway-stripe\includes\compat\class-wc-stripe-email-failed-preorder-authentication.php on line 2
+
+2020-03-02T10:57:54+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\clicknbuy\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version3\class-wc-rest-crud-controller.php on line 10
+
+2020-03-02T10:57:54+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\clicknbuy\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version3\class-wc-rest-crud-controller.php on line 10
+
+2020-03-02T10:57:54+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\clicknbuy\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version3\class-wc-rest-crud-controller.php on line 10
+
+2020-03-02T10:58:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\clicknbuy\wp-content\plugins\woocommerce-gateway-stripe\includes\admin\stripe-multibanco-settings.php on line 2
+
