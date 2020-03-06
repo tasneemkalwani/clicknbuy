@@ -474,6 +474,11 @@ body .tnp-subscription input.tnp-submit {
     cursor: pointer
 }
 
+body .et_pb_text_5 h2 {
+    
+    padding-top: 100px;
+}
+
 body .tnp-field label {
     display: none;
 }
@@ -563,11 +568,11 @@ textarea.wpcf7-form-control.wpcf7-textarea
     padding: 8px 0px;
 }
 
-span.et_pb_image_wrap>img {
+/* span.et_pb_image_wrap>img {
     padding-left: 130px;
     margin-top: 60px;
     width: 370px;
-}
+} */
 
 .submit {
     margin-left: 110px;
