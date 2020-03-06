@@ -14,12 +14,12 @@ Template: Divi
 
   /*** HEADER CSS ***/
 
-.header-content {
+/* .header-content {
     margin-top: -100px;
-}
+}  */
 
 .header-content-container.center {
-    margin-left: 550px;
+    margin-left: 600px;
 }
 
 .header-content h1.et_pb_module_header {
@@ -160,6 +160,10 @@ body .et_pb_column.et_pb_column_4_4.et_pb_column_0.et_pb_css_mix_blend_mode_pass
     background: white;
     box-shadow: 0 35px 40px rgba(0, 0, 0, 0.3);
     margin-top: -70px;
+}
+
+body .et_pb_row.et_pb_row_0 {
+    margin-top: 0px!important;
 }
 
 
@@ -419,11 +423,6 @@ body .et_pb_section_4 {
 
 /* NEWSLETTER CSS */
 
-.sec-over{
-    margin-top: -88px;
-  }
-
-
 body .container::before {
     display: none;
 }
@@ -453,6 +452,10 @@ body .tnp-subscription input[type=text], .tnp-subscription input[type=email], .t
     background-color: #f4f4f4;
     color: #444;
     font-size: 14px;
+}
+
+body .et_pb_section .et_pb_section_5 .sec-over .et_section_regular{
+    margin-top: 100px;
 }
 
 body .tnp-field.tnp-field-email {
@@ -587,8 +590,7 @@ input.wpcf7-form-control.wpcf7-submit {
     font-size: 20px;
 }
 
-body .et_pb_section.et_pb_section_0.et_pb_with_background.et_section_regular,
-body .et_pb_row_3 {
+body .et_pb_section.et_pb_section_0.et_pb_with_background.et_section_regular{
     margin-bottom: 100px;
 }
 
@@ -602,7 +604,6 @@ body .et_pb_text_4 h2 {
     font-weight: 700;
     font-size: 35px;
     text-align: center;
-    /* padding-top: 100px; */
 }
 
 
