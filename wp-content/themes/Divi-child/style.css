@@ -14,10 +14,6 @@ Template: Divi
 
   /*** HEADER CSS ***/
 
-/* .header-content {
-    margin-top: -100px;
-}  */
-
 .header-content-container.center {
     margin-left: 600px;
 }
@@ -76,34 +72,12 @@ body .et_pb_tabs_controls .et_pb_tab_active> li> a {
     color: #9675f7!important;
 }
 
-/* nav#top-menu-nav {
-    position: absolute;
-    top: 72px;
-    right: 120px;
-    background-color: white;
-    border: 1px solid #900a44;
-    border-radius: 0px 25px 25px 0px;
-    padding: 9px 4px 0px 25px;
-    z-index: 9;
-
-} */
  div#et_top_search::after {
     content: "Search";
     color: #900a44;
     margin-left: 25px;
-    /* border: 1px solid #900a44;
-    border-right: 0;
-    border-radius:  25px 0px 0px 25px;
-    padding: 3px 40px;
-    margin-top: 20px; */
 }
 
-/* span#et_search_icon::before {
-    position: absolute;
-    top: 27px;
-    left: -95px;
- 
-} */
 body 
 div#et-top-navigation {
     padding: 15px!important;
@@ -159,24 +133,14 @@ body span.et_pb_fullwidth_header_subhead::after {
 body .et_pb_column.et_pb_column_4_4.et_pb_column_0.et_pb_css_mix_blend_mode_passthrough.et-last-child {
     background: white;
     box-shadow: 0 35px 40px rgba(0, 0, 0, 0.3);
-    margin-top: -70px;
+    margin-top: -100px;
 }
-
-body .et_pb_row.et_pb_row_0 {
-    margin-top: 0px!important;
-}
-
-
-
-
                                                         /********************************/
                                                             /*** WOO commerce ***/
                                                         /********************************/
 a.et-cart-info {
     display: none;
 }
-
-
 
 .et_portfolio_image, .et_shop_image {
      max-width: fit-content;
@@ -249,13 +213,15 @@ h2.woocommerce-loop-product__title,
 	font-size: 18px;
 }
 /*** CENTER SALE BADGE AND CHANGE COLORS ***/
-body .entry-content #et-boc .woocommerce span.onsale, body .entry-content #et-boc .woocommerce-page span.onsale {
+body .entry-content #et-boc .woocommerce span.onsale, body .entry-content #et-boc .woocommerce-page span.onsale, body .woocommerce span.onsale, .woocommerce-page span.onsale {
 	background: #9675f7!important;
 	color: #fff;
 	letter-spacing: 2px;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+    
 }
 
 .woocommerce ul.products li.product img {
@@ -326,7 +292,7 @@ h3#ship-to-different-address {
 .woocommerce-page a.button:hover,
 .woocommerce button.button:hover,
 .woocommerce-page button.button:hover {
-	background: #00adad !important;
+	background: #b33f62 !important;
 	color: #fff !important;
 }
 /*** PAYMENT BOX ON CHECKOUT ***/
@@ -411,16 +377,6 @@ body .product {
     min-height: 90px;
 }
 
-/* body .et_pb_section.et_pb_section_3.et_section_regular {
-    z-index: 0!important;
-
-}
-
-body .et_pb_section_4 {
-    z-index: 0!important;
-    
-} */
-
 /* NEWSLETTER CSS */
 
 body .container::before {
@@ -477,11 +433,6 @@ body .tnp-subscription input.tnp-submit {
     cursor: pointer
 }
 
-body .et_pb_text_5 h2 {
-    
-    padding-top: 100px;
-}
-
 body .tnp-field label {
     display: none;
 }
@@ -531,17 +482,6 @@ div#footer-info {
     margin: 100px 0px;
 }
 
-
-/* body #footer-bottom .et-social-icons li:hover {
-    
-    width: 50px;
-    height: 50px;
-    background: #9675f7;
-    padding-top: 12px;
-    border-radius: 50%;
-} */
-
-
 #footer-bottom .et-social-icon a:hover{
     width: 50px;
     height: 50px;
@@ -571,15 +511,8 @@ textarea.wpcf7-form-control.wpcf7-textarea
     padding: 8px 0px;
 }
 
-/* span.et_pb_image_wrap>img {
-    padding-left: 130px;
-    margin-top: 60px;
-    width: 370px;
-} */
-
 .submit {
-    margin-left: 110px;
-    
+    margin-left: 110px;   
 }
 
 input.wpcf7-form-control.wpcf7-submit {
